@@ -1,0 +1,108 @@
+/* Estilos gerais */
+body {
+    background-image: url(ilovemywife.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    margin: 0;
+  }
+  
+  /* Estilos do wrapper para centralização */
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    opacity: 0;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 1;
+  }
+}
+  
+  /* Estilos do conteúdo */
+  .content {
+    max-width: 800px; /* Defina a largura máxima desejada para o conteúdo */
+  }
+  
+  /* Estilos para o título "About me" */
+  .sobre {
+    color: #000;
+    font-size: large;
+    font-family: 'Pixelify Sans', sans-serif;
+    text-align: center;
+  }
+  
+  /* Estilos para o parágrafo de introdução */
+  .paragrafo1 {
+    color: #fff;
+    font-size: small;
+    font-family: monospace;
+  }
+  
+  /* Estilos para o título "Contact me" */
+  .contaTo {
+    color: #000; 
+    font-size: x-large;
+    font-family: 'Impact', sans-serif;
+    text-align: center; /* Centraliza o texto horizontalmente */
+  }
+  
+
+  .icon {
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+  }
+  
+  a {
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    text-align: center; /* Opcional, se necessário */
+    text-decoration: none;
+  }
+  /* Estilos para o botão "1000000 dollars picpay" */
+  .button {
+    background-color: #000000;
+    border: none;
+    color: #f5f5f5;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+  }
+  
+  nav {
+    text-align: center; /* Centraliza o conteúdo dentro da <nav> horizontalmente */
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .link {
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #303030;
+    border: none;
+    display: inline-block; /* Para centralizar os itens horizontalmente */
+  }
+  
+  .link a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: unset;
+    color: #f0ffff;
+    text-align: center;
+  }
+  
